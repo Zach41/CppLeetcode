@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES reverse_words_in_a_string_iii.cpp)
+set(SOURCE_FILES longest_uncommon_subquence_ii.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
