@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES longest_uncommon_subquence_ii.cpp)
+set(SOURCE_FILES repeated_substring_pattern.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
