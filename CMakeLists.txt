@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES minimum_time_difference.cpp)
+set(SOURCE_FILES ransom_note.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
