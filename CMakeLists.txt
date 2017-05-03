@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES validate_ip_address.cpp)
+set(SOURCE_FILES add_binary.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
