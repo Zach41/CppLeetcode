@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES basic_calculator_ii.cpp)
+set(SOURCE_FILES next_greater_element_iii.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
