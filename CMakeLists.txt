@@ -3,5 +3,5 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES edit_distance.cpp)
+set(SOURCE_FILES scramble_string.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
