@@ -4,5 +4,5 @@ project(Leetcode)
 set(CMAKE_CXX_STANDARD 11)
 
 include(CMakeToolsHelpers OPTIONAL)
-set(SOURCE_FILES complex_number_multiplication.cpp)
+set(SOURCE_FILES distinct_subsequences.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
