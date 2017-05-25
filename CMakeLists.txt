@@ -4,5 +4,5 @@ project(Leetcode)
 set(CMAKE_CXX_STANDARD 11)
 
 include(CMakeToolsHelpers OPTIONAL)
-set(SOURCE_FILES longest_harmonous_subsequence.cpp)
+set(SOURCE_FILES brick_wall.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
