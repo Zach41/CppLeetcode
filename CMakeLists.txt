@@ -4,5 +4,5 @@ project(Leetcode)
 set(CMAKE_CXX_STANDARD 11)
 
 include(CMakeToolsHelpers OPTIONAL)
-set(SOURCE_FILES keyboard_row.cpp)
+set(SOURCE_FILES island_perimeter.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
