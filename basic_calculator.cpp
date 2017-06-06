@@ -8,26 +8,34 @@
 
 using namespace std;
 
-class Solution {
-public:
-    int calculate(string s) {
+class Solution
+{
+  public:
+    int calculate(string s)
+    {
         stack<int> nums, ops;
         int num = 0, rst = 0, sign = 1;
-        for (auto c: s) {
+        for (auto c : s)
+        {
             if (isdigit(c))
                 num = num * 10 + c - '0';
-            else {
+            else
+            {
                 rst += sign * num;
                 num = 0;
-                if (c == '+') sign = 1;
-                if (c == '-') sign = -1;
-                if (c == '(') {
+                if (c == '+')
+                    sign = 1;
+                if (c == '-')
+                    sign = -1;
+                if (c == '(')
+                {
                     nums.push(rst);
                     ops.push(sign);
                     rst = 0;
                     sign = 1;
                 }
-                if (c == ')' && ops.size()) {
+                if (c == ')' && ops.size())
+                {
                     rst = rst * ops.top() + nums.top();
                     nums.pop();
                     ops.pop();
@@ -39,7 +47,8 @@ public:
     }
 };
 
-int main(void) {
+int main(void)
+{
     Solution s;
     cout << s.calculate("1 + 1") << endl;
     cout << s.calculate("2 - 1 + 2 ") << endl;
