@@ -4,5 +4,5 @@ project(Leetcode)
 set(CMAKE_CXX_STANDARD 11)
 
 include(CMakeToolsHelpers OPTIONAL)
-set(SOURCE_FILES array_nesting.cpp)
+set(SOURCE_FILES can_place_flowers.cpp)
 add_executable(Leetcode ${SOURCE_FILES})
